@@ -11,6 +11,9 @@ if [ -f "$HOME/.env" ]; then
     . "$HOME/.env"
 fi
 
+# PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n\[\033[01;32m\]\$\[\033[00m\] '
+PS1="$PS1"'\n\[\033[01;32m\]\$\[\033[00m\] '
+
 # exports ======================================================================
 #export XDG_DATA_HOME="/home/ahmbasar/sgoinfre"
 export FLATPAK_USER_DIR="/sgoinfre/ahmbasar/flatpak"
@@ -97,3 +100,5 @@ alias doorbellcat1='firefox -new-window https://i1.sndcdn.com/artworks-CRPdY5qe2
 alias doorbellcat2='xdg-open https://i1.sndcdn.com/artworks-CRPdY5qe2qqO4kDy-9FQlyw-t1080x1080.jpg &>/dev/null &'
 
 source ~/.murmurbox/loader.bash
+
+. "$HOME/.local/bin/env"

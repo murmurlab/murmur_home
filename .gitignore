@@ -33,6 +33,9 @@
 !.local/share/applications/vscode-custom.desktop
 !.local/share/applications/vivaldi-stable.desktop
 
+!.ssh/
+!.ssh/sshd_config
+
 !.bash_profile
 !.bash_aliases
 !.bashrc
