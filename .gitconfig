@@ -1,5 +1,6 @@
 [user]
 	name = murmurlab
+	signingkey = /home/ahmbasar/.ssh/id_rsa_git.pub
 [include]
     path = "/home/ahmbasar/.gitconfig_local"
 [commit]
