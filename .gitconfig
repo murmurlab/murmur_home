@@ -2,3 +2,7 @@
 	name = murmurlab
 [include]
     path = "/home/ahmbasar/.gitconfig_local"
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
